@@ -6,6 +6,6 @@ Funcionalidade: Pesquisa
 Cenario: Pesquisando e acessando um canal
 
     Dado que  eu acesso a página principal www.youtube.com.br
-    Quando eu pesquiso o canal D1 Jornadas Digitais
+    Quando eu pesquiso o canal "D1 Jornadas Digitais"
     Então eu acesso o canal pesquisado
     E realizo um print da tela

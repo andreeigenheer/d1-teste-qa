@@ -2,8 +2,8 @@ Dado('que  eu acesso a página principal www.youtube.com.br') do
  visit 'http://youtube.com'
 end
   
-Quando('eu pesquiso o canal D1 Jornadas Digitais') do
- find('input[name=search_query]').set D1 Jornadas Digitais
+Quando('eu pesquiso o canal {string}') do |canal|
+ find('input[name=search_query]').set canal
 end
   
 Então('eu acesso o canal pesquisado') do
